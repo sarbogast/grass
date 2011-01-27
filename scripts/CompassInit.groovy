@@ -38,6 +38,9 @@ To compile sass stylesheets manually use 'grails compile-css'.
 
 To import your new stylesheets add the following lines of HTML (or equivalent) to your gsp:
 ${framework.import}
+
+Or more simply:
+${framework.shortImport}
 """
 
 	} else {

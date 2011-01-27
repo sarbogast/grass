@@ -13,7 +13,8 @@ availableCompassFrameworks = [
     <link href="${resource(dir:\'css\',file:\'ie.css\')}" media="screen, projection" rel="stylesheet" type="text/css" />
   <![endif]-->
 </head>
-'''
+''',
+        shortImport: '<grass:resources framework="blueprint"/>'
 	],
 	
 	
@@ -25,7 +26,8 @@ availableCompassFrameworks = [
 <head>
   <link href="${resource(dir:\'css\',file:\'screen.css\')}" media="screen, projection" rel="stylesheet" type="text/css" />
 </head>
-'''
+''',
+        shortImport: '<grass:resources framework="yui"/>'
 	]
 	
 	
